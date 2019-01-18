@@ -1,0 +1,138 @@
+body {
+	margin: 0;
+	background-image: url(http://lafeteweddings.com/wp-content/uploads/2018/02/background.jpg);
+}
+
+h3 {
+	text-decoration: underline;
+	font-size: 25px;
+	padding: 10px 30px 15px;
+	margin: 0;
+}
+
+h1 {
+	padding: 15px;
+	margin: 0;
+	text-transform: bold;
+	text-align: center;
+	font-size: 60px;
+}
+
+h2 {
+	box-shadow: 4px 5px 0px 0px rgba(0, 0, 175, .2);
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 0 auto 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 300px;
+	cursor: url(https://thumbs.dreamstime.com/z/vector-abstract-cross-symbol-simple-design-vector-cross-icon-116113064.jpg), pointer;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+img {
+    cursor: url(https://thumbs.dreamstime.com/z/vector-abstract-cross-symbol-simple-design-vector-cross-icon-116113064.jpg), pointer;
+	height: 250px;
+	width: 300px;
+}
+
+.grid {
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	display: grid;
+	grid-template-columns: .6fr 1fr 1fr 1fr .6fr;
+	grid-row-gap: 1em;
+}
+
+.gridItem1 {
+	padding:6%;
+	grid-column-start:2;
+	column-span: 1;
+}
+
+.gridItem2 {
+	padding:6%;
+	grid-column-start:3;
+	column-span: 1;
+}
+
+.gridItem3 {
+	padding:6%;
+	grid-column-start:4;
+	column-span: 1;
+}
+
+.gridItem4 {
+	padding:6%;
+	grid-column-start:2;
+	column-span: 1;
+}
+
+.gridItem5 {
+	padding:6%;
+	grid-column-start:3;
+	column-span: 1;
+}
+
+.gridItem6 {
+	padding:6%;
+	grid-column-start:4;
+	column-span: 1;
+}
+
+.gridItem7 {
+	padding:6%;
+	grid-column-start:2;
+	column-span: 1;
+}
+
+.gridItem8 {
+	padding:6%;
+	grid-column-start:3;
+	column-span: 1;
+}
+
+.gridItem9 {
+	padding:6%;
+	grid-column-start:4;
+	column-span: 1;
+}
+
+.gridItem10 {
+	padding:6%;
+	grid-column-start:2;
+	column-span: 1;
+}
+
+.gridItem11 {
+	padding:6%;
+	grid-column-start:3;
+	column-span: 1;
+}
+
+.gridItem12 {
+	padding:6%;
+	grid-column-start:4;
+	column-span: 1;
+}
+
+.tradingview-widget-container {
+	width: 100%;
+	background-color: rgba(255, 255, 255, .7);
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.displayName {
+	font-weight: 800;
+}
